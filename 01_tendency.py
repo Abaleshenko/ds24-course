@@ -5,4 +5,8 @@ collection = sample(sequence,
                     int(len(sequence) * .25))
 
 
-print(collection)
+# task1 - simple
+def mean(start: list) -> float:
+    return sum(start) / len(start)
+
+# print(mean(collection))
